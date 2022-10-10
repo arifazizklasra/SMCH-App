@@ -73,7 +73,7 @@ extension SearchController : UITableViewDelegate, UITableViewDataSource
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let vc:UIViewController = (self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as? MenuViewController )!
+        let vc:UIViewController = (self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController )!
         self.navigationController?.pushViewController(vc, animated: true)
         
     }

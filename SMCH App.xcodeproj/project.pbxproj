@@ -11,6 +11,7 @@
 		7822EAD828F0DE7700DCDB34 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7822EAD728F0DE7700DCDB34 /* Item.swift */; };
 		7822EADA28F0ECC000DCDB34 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7822EAD928F0ECC000DCDB34 /* ProfileController.swift */; };
 		7822EADC28F0F27000DCDB34 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7822EADB28F0F27000DCDB34 /* SearchController.swift */; };
+		7822EADE28F18B0300DCDB34 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7822EADD28F18B0300DCDB34 /* DetailViewController.swift */; };
 		784BEC0028E37FB500459E85 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784BEBFF28E37FB500459E85 /* SignUpController.swift */; };
 		784BEC0428E4071100459E85 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 784BEC0328E4071100459E85 /* GoogleService-Info.plist */; };
 		784BEC0828E40A1500459E85 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784BEC0728E40A1500459E85 /* MainTabBarController.swift */; };
@@ -30,6 +31,7 @@
 		7822EAD728F0DE7700DCDB34 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		7822EAD928F0ECC000DCDB34 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		7822EADB28F0F27000DCDB34 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		7822EADD28F18B0300DCDB34 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		784BEBFF28E37FB500459E85 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		784BEC0328E4071100459E85 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		784BEC0728E40A1500459E85 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -96,12 +98,13 @@
 				784BEC0928EB276500459E85 /* ShopListController.swift */,
 				789AE5CD28F0CA6D00C8B863 /* MenuViewController.swift */,
 				7822EAD928F0ECC000DCDB34 /* ProfileController.swift */,
+				7822EADB28F0F27000DCDB34 /* SearchController.swift */,
 				7822EAD728F0DE7700DCDB34 /* Item.swift */,
 				7865B8F828D0ED9F00677AFE /* Main.storyboard */,
 				7865B8FB28D0EDA100677AFE /* Assets.xcassets */,
 				7865B8FD28D0EDA100677AFE /* LaunchScreen.storyboard */,
 				7865B90028D0EDA100677AFE /* Info.plist */,
-				7822EADB28F0F27000DCDB34 /* SearchController.swift */,
+				7822EADD28F18B0300DCDB34 /* DetailViewController.swift */,
 			);
 			path = "SMCH App";
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7822EADE28F18B0300DCDB34 /* DetailViewController.swift in Sources */,
 				7865B8F728D0ED9F00677AFE /* ViewController.swift in Sources */,
 				7822EADC28F0F27000DCDB34 /* SearchController.swift in Sources */,
 				7865B8F328D0ED9F00677AFE /* AppDelegate.swift in Sources */,
