@@ -37,7 +37,7 @@ class CartController: UIViewController {
                 
             self.loader.dismiss(animated: true)
             items.removeAll()
-            total=0
+            total=10
             for child in snapshot.children.allObjects as! [DataSnapshot] {
                 
                 let singleSnap = child.value as? NSDictionary

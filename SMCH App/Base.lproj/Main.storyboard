@@ -529,13 +529,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total : 0 AED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7iu-YY-ZCH">
-                                <rect key="frame" x="116.33333333333331" y="605" width="157.66666666666669" height="31.333333333333371"/>
+                                <rect key="frame" x="116.33333333333333" y="625" width="157.66666666666669" height="31.333333333333371"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gs3-13-KVp">
-                                <rect key="frame" x="128.33333333333331" y="656.33333333333337" width="133.33333333333331" height="35"/>
+                                <rect key="frame" x="128.33333333333331" y="676.33333333333337" width="133.33333333333331" height="35"/>
                                 <color key="tintColor" name="AccentColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Confirm Order"/>
@@ -547,6 +547,12 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooking (+20 AED)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7N-qX-i9M">
                                 <rect key="frame" x="107" y="564" width="147" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery Charges Included (+10 AED)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5LS-N0-mUf">
+                                <rect key="frame" x="20" y="585" width="350" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -564,11 +570,14 @@
                             <constraint firstItem="EEQ-xf-psX" firstAttribute="trailing" secondItem="SzP-2S-Cf3" secondAttribute="trailing" id="JJ1-S1-0pg"/>
                             <constraint firstItem="EEQ-xf-psX" firstAttribute="leading" secondItem="SzP-2S-Cf3" secondAttribute="leading" id="Jao-7Y-xc9"/>
                             <constraint firstItem="TLH-l4-NOn" firstAttribute="leading" secondItem="SzP-2S-Cf3" secondAttribute="leading" id="Kdv-hE-bbD"/>
+                            <constraint firstItem="SzP-2S-Cf3" firstAttribute="trailing" secondItem="5LS-N0-mUf" secondAttribute="trailing" constant="20" id="LBa-jt-GEB"/>
                             <constraint firstItem="Gs3-13-KVp" firstAttribute="centerX" secondItem="k7p-9K-kuf" secondAttribute="centerX" id="PGh-fp-CiI"/>
-                            <constraint firstItem="7iu-YY-ZCH" firstAttribute="top" secondItem="Q7N-qX-i9M" secondAttribute="bottom" constant="20" id="QeH-Zm-FoJ"/>
+                            <constraint firstItem="7iu-YY-ZCH" firstAttribute="top" secondItem="Q7N-qX-i9M" secondAttribute="bottom" constant="40" id="QeH-Zm-FoJ"/>
                             <constraint firstItem="8Hb-mZ-MaA" firstAttribute="leading" secondItem="SzP-2S-Cf3" secondAttribute="leading" constant="50" id="Rjn-3g-qRE"/>
+                            <constraint firstItem="5LS-N0-mUf" firstAttribute="leading" secondItem="SzP-2S-Cf3" secondAttribute="leading" constant="20" id="Ul0-Ov-Hy2"/>
                             <constraint firstItem="TLH-l4-NOn" firstAttribute="top" secondItem="SzP-2S-Cf3" secondAttribute="top" id="aDx-QP-dVY"/>
                             <constraint firstItem="Gs3-13-KVp" firstAttribute="top" secondItem="7iu-YY-ZCH" secondAttribute="bottom" constant="20" id="ahB-4Y-fRl"/>
+                            <constraint firstItem="7iu-YY-ZCH" firstAttribute="top" secondItem="5LS-N0-mUf" secondAttribute="bottom" id="b87-F6-feK"/>
                             <constraint firstItem="q9i-C1-VKm" firstAttribute="leading" secondItem="SzP-2S-Cf3" secondAttribute="leading" constant="20" id="fAl-kP-Ja9"/>
                             <constraint firstItem="q0c-cm-zB0" firstAttribute="top" secondItem="EEQ-xf-psX" secondAttribute="bottom" constant="10" id="gcT-DC-YZv"/>
                             <constraint firstItem="TLH-l4-NOn" firstAttribute="trailing" secondItem="SzP-2S-Cf3" secondAttribute="trailing" id="h3f-Gh-OcR"/>
@@ -579,6 +588,7 @@
                             <constraint firstItem="Q7N-qX-i9M" firstAttribute="leading" secondItem="uwE-s4-rMj" secondAttribute="trailing" constant="8" id="rsP-ba-7Lc"/>
                             <constraint firstItem="Q7N-qX-i9M" firstAttribute="top" secondItem="Q4g-IQ-V50" secondAttribute="bottom" constant="20" id="tPT-k1-mtC"/>
                             <constraint firstItem="Q4g-IQ-V50" firstAttribute="leading" secondItem="8Hb-mZ-MaA" secondAttribute="trailing" constant="8" id="wAq-Uu-Eld"/>
+                            <constraint firstItem="5LS-N0-mUf" firstAttribute="top" secondItem="Q7N-qX-i9M" secondAttribute="bottom" id="wg3-Cv-ah4"/>
                             <constraint firstItem="uwE-s4-rMj" firstAttribute="top" secondItem="8Hb-mZ-MaA" secondAttribute="bottom" constant="10" id="zUE-R7-Xkl"/>
                         </constraints>
                     </view>
@@ -870,7 +880,7 @@
                                 </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This product will be added as KG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VE3-ym-91v">
-                                <rect key="frame" x="108.66666666666669" y="502" width="172.66666666666663" height="13.333333333333371"/>
+                                <rect key="frame" x="108.66666666666667" y="502" width="172.66666666666663" height="13.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
