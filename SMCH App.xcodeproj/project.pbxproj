@@ -28,6 +28,7 @@
 		789EEB6828F76DEE00DA7A0C /* CartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789EEB6728F76DEE00DA7A0C /* CartController.swift */; };
 		78C5449C28F77FE900583B03 /* CreditCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C5449B28F77FE900583B03 /* CreditCardController.swift */; };
 		78C5449E28F7800200583B03 /* FinalScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C5449D28F7800200583B03 /* FinalScreenController.swift */; };
+		78EE5253292D5D1E0088D095 /* OTPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE5252292D5D1E0088D095 /* OTPController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		789EEB6728F76DEE00DA7A0C /* CartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartController.swift; sourceTree = "<group>"; };
 		78C5449B28F77FE900583B03 /* CreditCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardController.swift; sourceTree = "<group>"; };
 		78C5449D28F7800200583B03 /* FinalScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScreenController.swift; sourceTree = "<group>"; };
+		78EE5252292D5D1E0088D095 /* OTPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPController.swift; sourceTree = "<group>"; };
 		AE56CCF58307DEA612D6CCEF /* Pods-SMCH App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMCH App.debug.xcconfig"; path = "Target Support Files/Pods-SMCH App/Pods-SMCH App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 				7865B8FB28D0EDA100677AFE /* Assets.xcassets */,
 				7865B8FD28D0EDA100677AFE /* LaunchScreen.storyboard */,
 				7865B90028D0EDA100677AFE /* Info.plist */,
+				78EE5252292D5D1E0088D095 /* OTPController.swift */,
 			);
 			path = "SMCH App";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				7822EADA28F0ECC000DCDB34 /* ProfileController.swift in Sources */,
 				7865B8F528D0ED9F00677AFE /* SceneDelegate.swift in Sources */,
 				789EEB6828F76DEE00DA7A0C /* CartController.swift in Sources */,
+				78EE5253292D5D1E0088D095 /* OTPController.swift in Sources */,
 				7869296A2911232900F60E64 /* CityController.swift in Sources */,
 				784BEC0028E37FB500459E85 /* SignUpController.swift in Sources */,
 				789EEB6628F7632100DA7A0C /* CartItem.swift in Sources */,

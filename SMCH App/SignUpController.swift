@@ -59,7 +59,7 @@ class SignUpController: UIViewController {
 
                           self.ref.child("Users").child(userID).setValue(["name": tf_name.text!, "address": tf_address.text!, "uid": userID, "phone": tf_phone.text!, "email": tf_Email.text!, "emarite": tf_emarite.text!])
                           
-                          let vc:UIViewController = (self.storyboard?.instantiateViewController(withIdentifier: "MainTabBarController") as? MainTabBarController )!
+                          let vc:UIViewController = (self.storyboard?.instantiateViewController(withIdentifier: "OTPController") as? OTPController )!
                           self.navigationController?.pushViewController(vc, animated: true)
                       }
                         
