@@ -541,7 +541,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Confirm Order"/>
                                 <connections>
                                     <action selector="confirmOrder:" destination="7JU-OR-68g" eventType="touchUpInside" id="uoe-tj-Wc4"/>
-                                    <segue destination="FnK-ve-dxQ" kind="show" id="1ti-Hb-yB5"/>
+                                    <segue destination="6Ui-p2-Sgd" kind="show" id="90W-Pq-I8p"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cooking (+20 AED)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7N-qX-i9M">
@@ -973,7 +973,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="payNow:" destination="6Ui-p2-Sgd" eventType="touchUpInside" id="6fn-2k-K2N"/>
-                                    <segue destination="pKR-l5-JmC" kind="show" id="3nF-RE-EhH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1014,7 +1013,7 @@
         <!--Final Screen Controller-->
         <scene sceneID="PVE-XM-AV8">
             <objects>
-                <viewController storyboardIdentifier="FinalScreenController" modalPresentationStyle="fullScreen" id="pKR-l5-JmC" customClass="FinalScreenController" customModule="SMCH_App" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FinalScreenController" modalPresentationStyle="fullScreen" id="pKR-l5-JmC" customClass="FinalScreenController" customModule="SMCH_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mRB-P2-YKk">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1369,10 +1368,10 @@ customercare@smch.com</string>
             </objects>
             <point key="canvasLocation" x="1089" y="-2"/>
         </scene>
-        <!--View Controller-->
+        <!--OrderOTP Controller-->
         <scene sceneID="MuM-6h-fuv">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="FnK-ve-dxQ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OrderOTPController" modalPresentationStyle="fullScreen" id="FnK-ve-dxQ" customClass="OrderOTPController" customModule="SMCH_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MiI-Dp-tXY">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1397,7 +1396,7 @@ customercare@smch.com</string>
                                     <color key="baseBackgroundColor" name="AccentColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="6Ui-p2-Sgd" kind="show" id="DjE-zz-PaT"/>
+                                    <segue destination="pKR-l5-JmC" kind="show" id="SXk-cz-hKP"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Didn't Receive the code ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YI8-Wd-OdW">

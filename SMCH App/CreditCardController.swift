@@ -21,9 +21,9 @@ class CreditCardController: UIViewController {
         {
             
             
-            if cardnum.text?.count == 10
+            if cardnum.text?.count == 16
             {
-                let vc:UIViewController = (self.storyboard?.instantiateViewController(withIdentifier: "FinalScreenController") as? FinalScreenController )!
+                let vc:UIViewController = (self.storyboard?.instantiateViewController(withIdentifier: "OrderOTPController") as? OrderOTPController )!
                 self.navigationController?.pushViewController(vc, animated: true)
                 
             }else
